@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: i386 amd64 all
+Codename: cheetah
+Components: main
+Date: Mon, 21 Dec 2020 03:10:42 +0000
+Description: KloudOS 0.0.1 version
+Label: KloudOS
+Origin: kloudos
+Suite: alpha
+Version: 0.0.1
+MD5Sum:
+ aa0929eeb7a4e253b092c6933a627bf9             1114 Packages
+ ef7dd3d6c63158f26b990c94fc0eeaaa              715 Packages.gz
+ 3f5fbb655510bd0456f6aed3be891acf              197 Release
+SHA1:
+ 2f649fffef6e6d7396a559d7dc2359d4ffe7a00e             1114 Packages
+ aeea85ea31b8caeebdae32b1daff512e04d47427              715 Packages.gz
+ d9e5d6ee1a59046286f64d8af9b5bb824eafb3f5              197 Release
+SHA256:
+ b6cdf33462f0f932eeb80c58464783bc24cd653da309ba27bb4d71795a43e627             1114 Packages
+ 11142f315e13ad868a78e5f149e38384aff8fcbaa6258f35251eecb77885d359              715 Packages.gz
+ 1c52a048d9f3f04b1ec54dde65d075a57b0d65acc4fdef7e700c19222757761a              197 Release
+SHA512:
+ 497bf76659593efa6eb186e1b1e1d1cf5db2123119e57d0d8a1e4d42ce8adbdd146add2b32f0cad531a6abf6a293a898a5310f149c0ec86b4587a53e8b2238e5             1114 Packages
+ d210e777b185495bfc2a43babfdf03df375bc13003278d3b472b247815c877c82f9d165e088688458b40bf4a2b808966b334ee8a5d81af00221b9b2cfa308afe              715 Packages.gz
+ c728ae765d908b3d1b08c4f5ce7cf859038d1e54388cb49b4c52f0a1fbaecca0bdfcfd24d4ca53bf14fa4f1e04bbaa6ec5fdb2560180ab698f57aaa02876464b              197 Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEH6NL8PVYDrwKQLuPLjET3coiDsEFAl/gEjIACgkQLjET3coi
+DsEtnw/+IG/5dJy+apXIHmDxgAKJmPDHST6M1VMLfp3iA2+oYOMxVlrdIDqRp0sq
+rF7pCXyl13WKKY0iPib1bLaScb/GzbGgPHipLJfNFl/ZP+1gBCHFk5/JqMWFEqct
+5161em2V2p2eJJEcZvBH0Qd26olHt+OI44lQgxQ0KUlTqntYLzKW8B86dyp2KK2Q
+VKFJZMCc4Y9mWwQYz+051Lu+hWxEJ4cpLoStlb2Ju0xGeRtDSdWisgvxgmJZGtir
+9SDQqk+c0GqKGtVhxRQg9VYL9SaFtKhFeSkWAHAVYezLfWrbpB4RJSsYL8lsa3ZZ
+oV/8oJl+b6qCdgKQyXN52gTNH2w7MGmrXdhoO7Xn8ODa4t978/HzDUrFCT//vHIv
+2qv+V2MpYivNzWnmoCF+d+nJVxxEjMUpApxy0TSX+r0b34rrZBMjeCiD1Z2Fjk24
+aukRAod5lDlc0lihTpj8cigOCST5olOMRw++9gtYzSuO9kaKVTbouniHuXMNpoQW
+79diW1SyqjvwORMnexDsTnamDV9BnqCihfSSlXTvFZT6pSYwqy9hgCdQHinB2r/H
+NulFqSYtWD1WfljAMk+hIoNyggGcoehWgQyp+C6h1oGPsRk1ODYlrPfTb1ZWwCHy
+Ul4g5FiyBVHUmR0aQy75ureAu/1/MyAI+Kvx6J7+A+JS/t0XMCU=
+=P44g
+-----END PGP SIGNATURE-----

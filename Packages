@@ -1,0 +1,26 @@
+Package: base-files
+Version: 11kloudos15
+Architecture: amd64
+Essential: yes
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 382
+Pre-Depends: awk
+Depends: libc6 (>= 2.3.4), libcrypt1 (>= 1:4.4.10-10ubuntu3)
+Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~), ubuntu-server (<< 1.453)
+Replaces: base, dpkg (<= 1.15.0), miscutils
+Provides: base
+Filename: ./base-files/base-files_11kloudos15_amd64.deb
+Size: 86524
+MD5sum: e3ccd20099218ae24d3013c9c068b30e
+SHA1: 60e64b30cdb622a6b20be01f952f76e6389cda04
+SHA256: 59455c9fdac0f58c5373ae9167a6e402cafb92a48b84c7392d36e49467e643df
+Section: admin
+Priority: required
+Multi-Arch: foreign
+Description: Debian base system miscellaneous files
+ This package contains the basic filesystem hierarchy of a Debian system, and
+ several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+ and the text of several common licenses in use on Debian systems.
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
