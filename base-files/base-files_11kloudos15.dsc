@@ -13,27 +13,27 @@ Package-List:
  base-files deb admin required arch=any essential=yes
  lsb-release-udeb udeb debian-installer extra arch=all
 Checksums-Sha1:
- 1369531981ba38d070da1c5f2f667d8075456bef 109816 base-files_11kloudos15.tar.xz
+ 342a2d31e8461b7307187a202f10f69242244d08 109448 base-files_11kloudos15.tar.xz
 Checksums-Sha256:
- 621d05db39dd1a473f2f0e4380586c356e36ac295b7ce928bad5de7b8e2b6bbe 109816 base-files_11kloudos15.tar.xz
+ 3a3f2ad32766e52e232a1558ed9aafbfd5effee543025489aba7486f7b3c9ab0 109448 base-files_11kloudos15.tar.xz
 Files:
- 8ec7cc425d4c749ebc0c2207deffd18a 109816 base-files_11kloudos15.tar.xz
+ f19a06d47f326d52c7e08e8cf14e9e5e 109448 base-files_11kloudos15.tar.xz
 Original-Maintainer: Santiago Vila <sanvila@debian.org>
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJGBAEBCgAwFiEEH6NL8PVYDrwKQLuPLjET3coiDsEFAl/hEUASHGFkbWluQGts
-b3Vkb3Mub3JnAAoJEC4xE93KIg7BvOIP/0r4pdSr74Ofh5FkvuRRblRWvtfYUFDC
-cS5DTIa4cgYWa0benRJlEZClWmZM6paw6ZASNA+hgZMY3CSzD4D+pxMUMr+Bgvra
-uY51T6gn5LaZ/rwUNW6ir+IWRR6cX1vGmt/FZExTW3Bqh+1h0w8odOh2AV6kvVMO
-eG/j2KTWy64YYj/MSfdZZqNj+9R9AEmLORapQqZLEZ0bPv5QXaikcsvxZoARwf1g
-5netWYJ/6rFPsxcaVxsZMU6j5tiZvHgGASooc0iWjHcEnmv8To/R8UkaaU66IxQ9
-whTCjOPlusXHJQ0wOQ51LJYwvTuhH5jtJZy5JHg2HrpIOfr+IRMlESXrrgdITG4/
-4VBVMYxBgVA/ERJvVBKJnxTXfgf4utBSbaP2AeymvTWmgvwv+q2ukh7A4cHuRicP
-34MJOOEq3qeRUnvZ2+yK9uFPBjBea4aDEyNhaXcuscdJ60ZHPC+bjn/dSWyo1rFX
-y+bVnpNfKGPN2HuEeQ378kpPyjqkXRTRSKH+NmK6vDybzc5guZiR3OhoxC1tOw8h
-LcN/zr0GBVrAYaXsQCBUUojf356uO36qUh5MzL2EnbBhRcARZoCIKlzRha8UGHgP
-Cru2yBpg9iMZFmOyTFuiwtUuwlhrI52QqLIDTrOouK9AC9ARcla4js+/HUfnRIaI
-1moO9RBrd3D6
-=s/Pz
+iQJGBAEBCgAwFiEEH6NL8PVYDrwKQLuPLjET3coiDsEFAl/hQsUSHGFkbWluQGts
+b3Vkb3Mub3JnAAoJEC4xE93KIg7BCbUQAL5cl6PyVf0QqI/NY3s5BhBrAkiNQ8q4
+9bOg0Tsw4NuZzYWM/q7VG0Ftgvw4ORhyAyiZEak/ySFVZhsvjqiNfyYnrvvGLAaj
+h/oHqboWpgNPhEjOEYeuAeNkerFOKTNx4ESlk9iH4PdhxgFbPKFLveKn8bK0fJNP
+9HpbQx0Aq+CY8s/UqSsNmpcF5cV5uhFqsumWcDpNCdgAf86S2KNnXC1/qRf12eJK
+KvGLptSZMyODo+/tnp7MavAjl5uuvuBWA6QmdgMvMG0yamecFx+Ik8/WxQ8IBlRl
+7TLGfDgDtWEQkWDh9ECx8+fkHFXY2Kxz4comT0OlSbPEZP55xrlkpCW3nOm+xVT+
+CFFVvW3bekvtDguTrDjYCVDRvSWIk7ykzfBhaO/pDsRlBzT8nwaMZCFTXczr71Dk
+Z+mlET8j2RNI6XRziKf99w9UvGmD4kLuUjQ124fP4hASCkIDirIZZTuOv6Kt0Heb
+QpJk1yzzsn92F/QB9iwbBTNsB53luJMmJ8tKb5X2I5FBu7q+OD76jom7RuZfTgPL
+uh2eEBs/Ml/fJjLC8YOGBrQdhSZGDXipLbulbC8hwrDWsCb2gJb+vh9322xClcHE
+a5JsIjzLirvAxuKaDlDTFaKaY/BbW3vPbJfifCwfuxWaSGwDJm6nGbRtKaFNe3B/
+jC9PSj0pcOVN
+=gEGe
 -----END PGP SIGNATURE-----
