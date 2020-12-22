@@ -10,10 +10,10 @@ Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), 
 Replaces: base, dpkg (<= 1.15.0), miscutils
 Provides: base
 Filename: ./base-files/base-files_11kloudos15_amd64.deb
-Size: 86524
-MD5sum: e3ccd20099218ae24d3013c9c068b30e
-SHA1: 60e64b30cdb622a6b20be01f952f76e6389cda04
-SHA256: 59455c9fdac0f58c5373ae9167a6e402cafb92a48b84c7392d36e49467e643df
+Size: 86480
+MD5sum: b98202c1bfac871066e5a29764b5ff29
+SHA1: 2de6bb758b25a974f13935245c4e44b216a629d8
+SHA256: e591267e53283a20c15b637efe2d120aa66652c83bb06c8a5f5ca909c9852342
 Section: admin
 Priority: required
 Multi-Arch: foreign
