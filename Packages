@@ -24,3 +24,410 @@ Description: Debian base system miscellaneous files
  and the text of several common licenses in use on Debian systems.
 Original-Maintainer: Santiago Vila <sanvila@debian.org>
 
+Package: libnss-myhostname
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 266
+Depends: libc6 (>= 2.30)
+Filename: ./systemd/libnss-myhostname_246.6-2kloudos_amd64.deb
+Size: 174340
+MD5sum: 75b2176a12d2390f31b0ce2e2d350027
+SHA1: f982d5b1da5d3a978a43107e2be86c1aa7e6599f
+SHA256: af8b2c6aac0a66b22322833b37600caad4f66b84cb94c948cf7d4d3de85f2cca
+Section: admin
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: nss module providing fallback resolution for the current hostname
+ This package contains a plugin for the Name Service Switch, providing host
+ name resolution for the locally configured system hostname as returned by
+ gethostname(2). It returns all locally configured public IP addresses or -- if
+ none are configured, the IPv4 address 127.0.1.1 (which is on the local
+ loopback) and the IPv6 address ::1 (which is the local host).
+ .
+ A lot of software relies on that the local host name is resolvable. This
+ package provides an alternative to the fragile and error-prone manual editing
+ of /etc/hosts.
+ .
+ Installing this package automatically adds myhostname to /etc/nsswitch.conf.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: libnss-mymachines
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 460
+Depends: libc6 (>= 2.30), systemd-container (= 246.6-2kloudos)
+Filename: ./systemd/libnss-mymachines_246.6-2kloudos_amd64.deb
+Size: 259428
+MD5sum: 09fb5ecf87fd02b40372bddad0f5ab9c
+SHA1: e398d2230b968c76ad95e9581b3856ea28867252
+SHA256: 64c1176acae058ecc20f7828e2bc5dda17ed1e38a5f7f8eacc774cb331d09f97
+Section: admin
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: nss module to resolve hostnames for local container instances
+ nss-mymachines is a plugin for the GNU Name Service Switch (NSS) functionality
+ of the GNU C Library (glibc) providing hostname resolution for local containers
+ that are registered with systemd-machined.service(8). The container names are
+ resolved to IP addresses of the specific container, ordered by their scope.
+ .
+ Installing this package automatically adds mymachines to /etc/nsswitch.conf.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: libnss-resolve
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 460
+Depends: libc6 (>= 2.30), systemd (= 246.6-2kloudos)
+Filename: ./systemd/libnss-resolve_246.6-2kloudos_amd64.deb
+Size: 259492
+MD5sum: bce0714b4ff9decdafa682390dbeab7b
+SHA1: 8b9df33aa32df06d6f9610e9fe2473803841ac6a
+SHA256: 4ecdcead89ccb1f3aa0a28588b70ae868526cbf52e6838a2f80424fa5428b9f4
+Section: admin
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: nss module to resolve names via systemd-resolved
+ nss-resolve is a plugin for the GNU Name Service Switch (NSS) functionality
+ of the GNU C Library (glibc) providing DNS and LLMNR resolution to programs via
+ the systemd-resolved daemon (provided in the systemd package).
+ .
+ Installing this package automatically adds resolve to /etc/nsswitch.conf.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: libnss-systemd
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 398
+Depends: libc6 (>= 2.30), systemd (= 246.6-2kloudos)
+Filename: ./systemd/libnss-systemd_246.6-2kloudos_amd64.deb
+Size: 233628
+MD5sum: 407dd48cf5ccf5bf32086b8fd6bde785
+SHA1: 8e60df4eb0d79497315a3c8088fdf411bad6e923
+SHA256: 0326c24221bf3d2d816243188b17bbbde437ad1c76eea87dca4a8935b18528ab
+Section: admin
+Priority: standard
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: nss module providing dynamic user and group name resolution
+ nss-systemd is a plug-in module for the GNU Name Service Switch (NSS)
+ functionality of the GNU C Library (glibc), providing UNIX user and group name
+ resolution for dynamic users and groups allocated through the DynamicUser=
+ option in systemd unit files. See systemd.exec(5) for details on this
+ option.
+ .
+ Installing this package automatically adds the module to /etc/nsswitch.conf.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: libpam-systemd
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 610
+Depends: libc6 (>= 2.30), libpam0g (>= 0.99.7.1), systemd (= 246.6-2kloudos), libpam-runtime (>= 1.0.1-6), dbus, systemd-sysv
+Provides: default-logind (= 246.6-2kloudos), logind (= 246.6-2kloudos)
+Filename: ./systemd/libpam-systemd_246.6-2kloudos_amd64.deb
+Size: 318016
+MD5sum: dc6f44bf2d86dec38c945a228aa68af0
+SHA1: 5ab8dec22a203834ee79987e393e19eaa6c6487a
+SHA256: 24c1b5dd63e950ed039911520a11f490a6d6c41f4944ee435ceeb37f77f084cc
+Section: admin
+Priority: standard
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: system and service manager - PAM module
+ This package contains the PAM module which registers user sessions in
+ the systemd control group hierarchy for logind.
+ .
+ If in doubt, do install this package.
+ .
+ Packages that depend on logind functionality need to depend on libpam-systemd.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: libsystemd-dev
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1111
+Depends: libsystemd0 (= 246.6-2kloudos)
+Filename: ./systemd/libsystemd-dev_246.6-2kloudos_amd64.deb
+Size: 433944
+MD5sum: 9c2d1b618ff344701c6757c992f0190d
+SHA1: 8611973bd2c3d972485a12e148218eff6c5753af
+SHA256: f459dd209fbe678512858ef92d27ad785d337ffe75143f922f1b2193c4bbb0cc
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: systemd utility library - development files
+ The libsystemd0 library provides interfaces to various systemd components.
+ .
+ This package contains the development files.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: libsystemd0
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 896
+Pre-Depends: libc6 (>= 2.32), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libzstd1 (>= 1.4.0)
+Filename: ./systemd/libsystemd0_246.6-2kloudos_amd64.deb
+Size: 409460
+MD5sum: 2563c31a6e0562503b657eb1274fa164
+SHA1: d4fa9907a31963e0497d1d7bb85f22e97bb4f179
+SHA256: 40d00ac32ac4519f189ce81df9c567a3c882bbd1596fe3b7c4ae76769952e549
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: systemd utility library
+ The libsystemd0 library provides interfaces to various systemd components.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: libudev-dev
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 243
+Depends: libudev1 (= 246.6-2kloudos)
+Filename: ./systemd/libudev-dev_246.6-2kloudos_amd64.deb
+Size: 158268
+MD5sum: ba96f3bcfcac28245d90ce881ede0003
+SHA1: 6c3563101077a1159fd32e0a84412ead4d45bddd
+SHA256: b9ebd56a4d3be28acf52b64cb1fd4fcbabd186b46d4fad782c34a9637b76fd62
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: libudev development files
+ This package contains the files needed for developing applications that
+ use libudev.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: libudev1
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 317
+Depends: libc6 (>= 2.30)
+Filename: ./systemd/libudev1_246.6-2kloudos_amd64.deb
+Size: 203240
+MD5sum: f9cbeda7042ffd92423ba8e2f15bc363
+SHA1: 9f1b10d63d8cadb5c38db23bd12addaf0db195e2
+SHA256: 08ce25b47a9bf9f6e172f516d3a9d74f2616fc1047edbfc9340321ae3e96d409
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: libudev shared library
+ This library provides access to udev device information.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 15354
+Pre-Depends: libblkid1 (>= 2.24), libc6 (>= 2.30), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 3.1~), libzstd1 (>= 1.4.0)
+Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.13), libaudit1 (>= 1:2.2.1), libc6 (>= 2.32), libcap2 (>= 1:2.24-9~), libcrypt1 (>= 1:4.4.0), libcryptsetup12 (>= 2:2.3), libgnutls30 (>= 3.6.14), libgpg-error0 (>= 1.14), libidn2-0 (>= 2.0.0), libip4tc2 (>= 1.8.3), libkmod2 (>= 5~), liblz4-1 (>= 0.0~r130), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libpcre2-8-0 (>= 10.22), libseccomp2 (>= 2.4.1), libsystemd0 (= 246.6-2kloudos), systemd-timesyncd | time-daemon, util-linux (>= 2.27.1), mount (>= 2.26), adduser
+Recommends: dbus, networkd-dispatcher
+Suggests: systemd-container, policykit-1
+Conflicts: consolekit, libpam-ck-connector, systemd-shim, upstart
+Breaks: isc-dhcp-client (<< 4.4.1-2.1ubuntu7), python-dbusmock (<< 0.18), python3-dbusmock (<< 0.18), resolvconf (<< 1.83~), systemd-shim (<< 10-4~)
+Filename: ./systemd/systemd_246.6-2kloudos_amd64.deb
+Size: 4357820
+MD5sum: 55efbc25c31e41ebaf4baaf3295da3d7
+SHA1: 178d736dc9e1bf4500eafddf272a70515f4d434d
+SHA256: 66159f49e9d554bc06f9f22db1ee1057cb7abcc413a1303df467bdaab9ae4e81
+Section: admin
+Priority: important
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: system and service manager
+ systemd is a system and service manager for Linux. It provides aggressive
+ parallelization capabilities, uses socket and D-Bus activation for starting
+ services, offers on-demand starting of daemons, keeps track of processes using
+ Linux control groups, maintains mount and automount points and implements an
+ elaborate transactional dependency-based service control logic.
+ .
+ systemd is compatible with SysV and LSB init scripts and can work as a
+ drop-in replacement for sysvinit.
+ .
+ Installing the systemd package will not switch your init system unless you
+ boot with init=/lib/systemd/systemd or install systemd-sysv in addition.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: systemd-container
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1253
+Depends: libacl1 (>= 2.2.23), libbz2-1.0, libc6 (>= 2.28), libcurl3-gnutls (>= 7.16.3), libgcrypt20 (>= 1.8.0), liblzma5 (>= 5.1.1alpha+20120614), libseccomp2 (>= 2.3.1), libselinux1 (>= 3.1~), systemd (= 246.6-2kloudos), zlib1g (>= 1:1.1.4), dbus
+Recommends: libnss-mymachines
+Filename: ./systemd/systemd-container_246.6-2kloudos_amd64.deb
+Size: 460300
+MD5sum: fe46b57d6f26ee317da96a5bbcd4e61e
+SHA1: b8e7eb34a0648f88ea949a37f0a7382ff0051e6c
+SHA256: ab76ee6022066ecfa195614d04957df6f7d43da28c958668f1c7c4184a3d8c96
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: systemd container/nspawn tools
+ This package provides systemd's tools for nspawn and container/VM management:
+  * systemd-nspawn
+  * systemd-machined and machinectl
+  * systemd-importd
+  * systemd-portabled and portablectl
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: systemd-coredump
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 299
+Depends: libc6 (>= 2.14), libdw1 (>= 0.158), libelf1 (>= 0.131), systemd (= 246.6-2kloudos), adduser
+Conflicts: core-dump-handler
+Replaces: core-dump-handler
+Provides: core-dump-handler
+Filename: ./systemd/systemd-coredump_246.6-2kloudos_amd64.deb
+Size: 182724
+MD5sum: 103549ccfeaf2c257a62fdde7273f50e
+SHA1: 3e06c1baaafdb0d182bbbb792a73c2498812f617
+SHA256: f164923a3a678a413a06f7265d678e223836c02f8adc89dc48c077ded72b198b
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: tools for storing and retrieving coredumps
+ This package provides systemd tools for storing and retrieving coredumps:
+  * systemd-coredump
+  * coredumpctl
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: systemd-journal-remote
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 378
+Depends: libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2), libgnutls30 (>= 3.6.5), libmicrohttpd12 (>= 0.9.50), systemd (= 246.6-2kloudos), adduser
+Breaks: systemd (<< 239-6)
+Replaces: systemd (<< 239-6)
+Filename: ./systemd/systemd-journal-remote_246.6-2kloudos_amd64.deb
+Size: 201384
+MD5sum: 745282fed6559e57df29ed08289afe40
+SHA1: 5ca1ecac4639b595b9683c4c6e2cbc51fc4d730c
+SHA256: a763b18cd27f6d090f1accc0af354de616e892e0ff9f11dadd2cd67a0635a02c
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: tools for sending and receiving remote journal logs
+ This package provides tools for sending and receiving remote journal logs:
+  * systemd-journal-remote
+  * systemd-journal-upload
+  * systemd-journal-gatewayd
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: systemd-sysv
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 175
+Pre-Depends: systemd
+Depends: systemd (= 246.6-2kloudos)
+Recommends: libpam-systemd, libnss-systemd
+Conflicts: file-rc, systemd-shim, sysvinit-core, upstart (<< 1.13.2-0ubuntu10~)
+Replaces: sysvinit-core, upstart (<< 1.13.2-0ubuntu10~)
+Filename: ./systemd/systemd-sysv_246.6-2kloudos_amd64.deb
+Size: 148676
+MD5sum: 226f071a54c323866873a9cac8e71896
+SHA1: 184583533c8edcdaf0520cfcafcffe4670d1ac09
+SHA256: af33ba6fb440e1ce6fe9787abc16ebf1a92777c6658d6564dbb3b0593dac1437
+Section: admin
+Priority: important
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: system and service manager - SysV links
+ systemd is a system and service manager for Linux. It provides aggressive
+ parallelization capabilities, uses socket and D-Bus activation for starting
+ services, offers on-demand starting of daemons, keeps track of processes using
+ Linux control groups, maintains mount and automount points and implements an
+ elaborate transactional dependency-based service control logic.
+ .
+ systemd is compatible with SysV and LSB init scripts and can work as a
+ drop-in replacement for sysvinit.
+ .
+ This package provides the manual pages and links needed for systemd
+ to replace sysvinit. Installing systemd-sysv will overwrite /sbin/init with a
+ link to systemd.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: systemd-timesyncd
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 242
+Depends: libc6 (>= 2.29), systemd (= 246.6-2kloudos), adduser
+Conflicts: time-daemon
+Breaks: systemd (<< 245.4-2~)
+Replaces: systemd (<< 245.4-2~), time-daemon
+Provides: time-daemon
+Filename: ./systemd/systemd-timesyncd_246.6-2kloudos_amd64.deb
+Size: 166696
+MD5sum: 2a3d1cc16b3e086447e1ac13a12880d9
+SHA1: 03f1ab9eadced1066085c5a805780f9c2f48ca0b
+SHA256: fb0c605b66983d731a33fc59e279abcfcb752b0603ade6d13a08c589d5709ebd
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: minimalistic service to synchronize local time with NTP servers
+ The package contains the systemd-timesyncd system service that may be used to
+ synchronize the local system clock with a remote Network Time Protocol server.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
+Package: udev
+Source: systemd
+Version: 246.6-2kloudos
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 8886
+Depends: libacl1 (>= 2.2.23), libblkid1 (>= 2.24), libc6 (>= 2.32), libkmod2 (>= 5~), libselinux1 (>= 3.1~), adduser, dpkg (>= 1.19.3) | systemd-sysv, libudev1 (= 246.6-2kloudos), util-linux (>= 2.27.1)
+Conflicts: hal
+Breaks: systemd (<< 233-4)
+Replaces: systemd (<< 233-4)
+Filename: ./systemd/udev_246.6-2kloudos_amd64.deb
+Size: 1478260
+MD5sum: eaf4fe6d7c3c2cb8b6ad161c923710e2
+SHA1: bb293f8cc3921ce96d54486d5a55abdfca0be015
+SHA256: 6cb598e604b25f554bed8c519a09ba1e9534701a4a975e99dcfe0d456167ee0d
+Section: admin
+Priority: important
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+Description: /dev/ and hotplug management daemon
+ udev is a daemon which dynamically creates and removes device nodes from
+ /dev/, handles hotplug events and loads drivers at boot time.
+Original-Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+
