@@ -1,7 +1,7 @@
 Architectures: i386 amd64 all
 Codename: cheetah
 Components: main
-Date: Fri, 25 Dec 2020 08:20:33 +0000
+Date: Fri, 25 Dec 2020 10:59:05 +0000
 Description: KloudOS 0.0.1 version
 Label: KloudOS
 Origin: kloudos
@@ -9,17 +9,17 @@ Suite: alpha
 Version: 0.0.1
 MD5Sum:
  59c172456783ca06878abad19f883d4e            19213 Packages
- 16b789526868b78f542e22e077f7f792             5251 Packages.gz
- f4d4e01e934ec7e1d19c45efa38a329a              197 Release
+ 4e5e32c720e58f594f4d354fba934156             5251 Packages.gz
+ 4c4186e886aff1afa7a9a992d634675e              197 Release
 SHA1:
  6e61c88c26dd975725097f8c2f6e3344df6ec1a2            19213 Packages
- 93bc0e92072d0a3716fcc7684207a745e58d4eb6             5251 Packages.gz
- a1ac85545de6a6befc1197ad0f357215753f56f3              197 Release
+ 11c6e26bbd3412eb66693fa4029e410a9d02bc0b             5251 Packages.gz
+ c1ea52548275fef60610d1ffcee86a0ecfaf2854              197 Release
 SHA256:
  2a417db04549e0979acdaf6b1ed84387d62baf6452d523ad22f0ca45795a248e            19213 Packages
- 8d586d4bdb30eac591ed677a95648f964eb9ed1525d97935f0fa97450b649d05             5251 Packages.gz
- 537e8d7582d1a8b1cb79c099a54f03c141794d30c94b745add41ca10e64beaeb              197 Release
+ 23ec5e35a2d5052c5788858f44f9a59a41b650bc5f4fe2933f3404565f9ee8b9             5251 Packages.gz
+ 928fd93fa852d6f4974ba0a9fcdbcdbb64588855971beebbda8b005628e25dc6              197 Release
 SHA512:
  66ec56ddc9d4acced348d8294b69e4ef41882ad73061356a57ce803650167793be935e9c6834d19141e1e399f10a4e2830088851db06532605a6a72d45660ed3            19213 Packages
- c9edc7e1e9204d664ab83d276723b399f44c693ea21e7cb4b2ef57be3e2b1ebd832265d3446f36b83db6ba8aea839beaef6515e7d426f39e548f4eafbd505359             5251 Packages.gz
- 9e410082116783fe1952a206b52b319f9f401613168844608424b72509f413dd6a775c95f2226d0495e405da8cd4ad2b2f7c02d7449a2f9f9b1014a4c220f2b5              197 Release
+ 9651b1a0ed141b65299640ec1c712667b5d2ed79de1fc7f0314080750e355b199cf000ba80e0dc8bd78539bd074a9da6c58b644010059a3e6abf9eea850bef58             5251 Packages.gz
+ b08ade5e2103464031b4719cea217712deef8918388f851b53d5431f929b10cf05ea419c92d480550911221cf0de6abd6e72051f332b47a16fe123f932165dea              197 Release
