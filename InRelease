@@ -4,7 +4,7 @@ Hash: SHA512
 Architectures: i386 amd64 all
 Codename: cheetah
 Components: main
-Date: Sun, 27 Dec 2020 19:17:28 +0000
+Date: Sun, 27 Dec 2020 22:56:57 +0000
 Description: KloudOS 0.0.1 version
 Label: KloudOS
 Origin: kloudos
@@ -12,33 +12,33 @@ Suite: alpha
 Version: 0.0.1
 MD5Sum:
  499dcc8e6475226bb4671d24a31c34f5            19213 Packages
- bd5dfbcce9e49c1dd55cad5bf01dabf0             5238 Packages.gz
- 4e73d9b5c51a54c1e0ef2ad84aef675a              197 Release
+ d0e27485ef33833b33afe30784d66a09             5238 Packages.gz
+ d17782b0591b9733b26b56e3d783c482              197 Release
 SHA1:
  2f402aef2ccbff3d0fa78e1a70d06a0c06368fb9            19213 Packages
- 19e62fc69deff7cdea3fe20d73b11826d953ce12             5238 Packages.gz
- bf6a5317fa48e919937b64aef34e971db98e2e0c              197 Release
+ c0533d9ab5c05d2894e9563d8b49db82302b6da9             5238 Packages.gz
+ 4960540034fd7e880864ef2518e8b8ef21742ee5              197 Release
 SHA256:
  a9f2fe1718905775d13d40aea3aad24968132ccae2bc1532877a7e80dbd64951            19213 Packages
- ee75087b3d18b061a2d46d9b46b7757c66abfbda53df2caba329f4b2c50f8ed2             5238 Packages.gz
- e96a0bf853b66bd72a70d1077c365193b2b8dd43eecfb6dba97e244a81260405              197 Release
+ ce21f2ef740fd7a87e73a45bcc6aed0f32c807e5e2f1e23c9c3e98e3d18b7d6e             5238 Packages.gz
+ 2957886dd512bb178ff56de565cbf97f80ebe785143f3ef7eb3eeef46b963efd              197 Release
 SHA512:
  4e5a5151e6618ebaf0562ab9d7600d68f383e0497bfc7c6d53e817193cd42e622e82248fef3b26e23435a69475063399dbcb07ff8fa86f6c5824d3f064a61ccb            19213 Packages
- bcb0b39abe4cb1040fa5cff3131707f5bf8d1d4cb50708a1d5c304d55ceb5f7e02064f8489c697d9bcf81534c3ca105c321273217820459561868bf3067e7fdb             5238 Packages.gz
- 18bdd137be3a061856123a57d7c6208bd62e31a26a3f3f82b024c963539ee52e01dac8a3bcaa904113871b9d70b4c3b836f9115c9782cf47a910ad39b0ae8518              197 Release
+ 9e7e824aa56a27fc73b2699d43a03bbd71419c3bbbd7a09f61aaf18faff42e6dbb3d6a3e39378ad10baf7d729748644783bc0b3757f6c2636b362e9dc2f87072             5238 Packages.gz
+ d5c140bb77da6f2e3f013acddc8474269586f8b4ce198cdaca16ef45b5223e70d6b815ed422b6008ef177ad3c93a332ebea165822d6bdf83e4150c677465fa95              197 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEFH+svlCPOzW9QRd2bkUlJ6xnA6oFAl/o3ckACgkQbkUlJ6xn
-A6qaKg/9EUD82TueCAyJ766Hz+nXcumQeVJYzVJEA/1oZSqUvUv7/3QoTymYB0pr
-aeqe1nIw1OTnR+pq7bxrdH21zhXL0QBp4/9aRb9r27l0wU15pJVaFO8DtF+S6ueO
-/HDKKlzdS+QIGHC80UCe1OfLjK0jLL4kgnI9fLnOjRFQ9TyTI3FpWyBUQ4vintVS
-V/afl3Ubk0gfC+J92NFc7lF3aOv+oa4QZlFjy34QEOV4Ke7hvmOTHP0m0t9pzsi6
-+j4GAS2duw50VVdUuURDoVA9vl9MfCZ0pCL11VH7RejJKMoSBIkPgJKutlK+uAH3
-mQqk1z4wMfDrrmwVGQLIQr7n6v9LpTx1G3ltsZWITh+Zewp/txkOG/0xuD2aWcyS
-aLCNoBG0tXJELkk9TdcHva59zSVYfzJqDoXEzaQxT7hoYngx1UitTyyLnLTJMWWG
-ELHCjOBELg6yWakBv4ry9cb2hh8Iw5r3TXoG79pEw0p73pPabfkmAkPWNQIOuyJK
-D5g6/EKluoig7HBWgrEzH4UfbD9vBjSzgLhmQS/nvamrlmGAy6LKbDJIKaSUK1Rq
-++n5C9h5GnPinp6xCDI1nM8SsZLCZ4K6oypi4YGGoHxpGWSwea82C4PpoGVE2zVe
-Z3Zw1PJVvHdIz01iPbmqscHkA8Pg6VEgaAbHFIzv08ghWgnK1lI=
-=PuxP
+iQIzBAEBCgAdFiEEFH+svlCPOzW9QRd2bkUlJ6xnA6oFAl/pETkACgkQbkUlJ6xn
+A6oCKxAArVUp6Lrvzig+YepTHah9746FSTdpbsmxivYfFQqVEYOQED3fmST4eDaB
+tO/0FPB9kqS9CUR377FfOPR9j68QVsWbwdbfCO92I7oQ0Z/E7cU4kZ+DwSPwvE24
+NU4C0+JEIrMNTCkXJitVKecaIGcCNKGXOat0ncz81GAqm7+oJ31sh3PAAFENq71R
+hTD3+HliIVkx6XPFOt3YNQbuyl5/PGfM2DvBwcVqJNex0PN5MVwQC4zf1Y759R/W
+OSMKL8vaCI2JPvaXgedsu+qqKuQtLhGVnYzHD2ghfEoOu8ygeffF99oTawc3lKA5
+bd758y8+rczDXvROXX4zQT4kTZQbj2Bi6YiyhrKehL8QVg77DVX4krPHs7coQv8o
+W6bfPts+eGBkd5bH3NpNKe12xU1S8weYNU2MEk2qXaKlp6xd3gqwqH/FwJBEMFW0
+2PTlnHj27De/98lEd0d6FtFwNlyVCuuNWSQ7ln1L5JCRsICcGvPHV3QtnItOlfPP
+/3379+B2OavIJLiv2HOS+TuPDCjoP+3gPJq9NyUqIbNqbaoXq56Dtr0/i2BWlzER
+sZybmdv7VdpurKweFtcgndllq2y7GvI5NX95wMH5FwBsWW8+ib63nGBpqtRLCWvY
+3W0DYi2YoWQovAWAfdsL6r1gdY1mosFbvKF+eYHrOFZMFT692xc=
+=TC79
 -----END PGP SIGNATURE-----
